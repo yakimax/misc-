@@ -1,14 +1,17 @@
-.body{
+body{
     background-color: #E6E6FA ;
 } 
 .form-title-body{
     border : 1px grey solid ;
     padding-left : 10px ;
+    padding-top : 1px ;
+    background-color: white ;
 }
-.form-title{
-    align-items : centre ;
+.form{
+    border-radius: 15px 15px 0px 0px ;
+}
+.form-title{ 
     font-family: 'docs-Roboto', Helvetica, Arial, sans-serif ;
-    font-weight: 400 ;
     font-size: 24pt ;
 }
 .button-submit{
@@ -17,18 +20,23 @@
     margin-top : 8px ;
 }
 .form-title-head{
-    height: 20px ;
-    border-radius: 10px 10px 0px 0px ;
+    height: 15px ;
+    border-radius: 15px 15px 0px 0px ;
     background-color : #8A2BE2 ;
 }
 .form{
-    margin : 10px 30% 100px 30% ;    
+    margin : 10px 30% 100px 30% ;  
+    background-color: white;  
 }
 *.form-main-info>div{
     border : 1px grey solid ;
+    padding-left : 10px ;
+    padding-right: 10px ;
 }
 *.form-main{
     border : 1px grey solid ;
+    padding-left : 10px ;
+    padding-right: 10px ;
 }
 *div>div{
     margin-bottom: 10px ;
