@@ -26,6 +26,13 @@
     background-color: white ;
 }
 
-div>div{
+div>div>div>label{
     background-color: white ;
+}
+div>div>div{
+    background-color: white ;
+}
+
+div.main{
+    border : 1px grey solid ;
 }
