@@ -1,5 +1,5 @@
-*:not(.form){
-    background-color : #E6E6FA ;
+.body{
+    background-color: #E6E6FA ;
 } 
 .main-credentials{
     
@@ -18,6 +18,14 @@
     background-color : #8A2BE2 ;
 }
 
-.form-main-info{
-    background-color: white ;
+.form{
+    margin : 10px 10px 10px 10px ;
+    /* background-color: white ; */
+    
+}
+*.form-main-info>div{
+    border : 1px grey solid ;
+}
+*.form-main{
+    border : 1px grey solid ;
 }
