@@ -1,6 +1,6 @@
 
 
-let submitbuttonevent = document.getElementbyId(".button-submit").addEventListner("submit", (e)=>{
+let submitbuttonevent = document.getElementbyId(".myForm").addEventListner("submit", (e)=>{
     e.preventDefault() ;
 
     let userName = document.querySelector("#username") ;
