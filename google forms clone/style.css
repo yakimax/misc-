@@ -1,18 +1,19 @@
+*{
+    background-color : #E6E6FA ;
+}
 .main-credentials{
     border: 1px grey solid ;
+    background-color: white ;
 }
 .main-info{
     border: 1px grey solid ;
+    background-color: white ;
 }
 .button-submit{
     float : right ;
     margin-right : 1px ;
     margin-top : 8px ;
 }
-.main{
-    background-color : #E6E6FA ;
-}
-
 .form-title-head{
     height: 10px ;
     border-radius: 20px 20px 0px 0px ;
@@ -21,4 +22,10 @@
 
 .form-title-main{
     border : 1px grey solid ;
+    
+    background-color: white ;
+}
+
+div>div{
+    background-color: white ;
 }
