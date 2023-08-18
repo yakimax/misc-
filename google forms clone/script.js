@@ -11,4 +11,4 @@ submitbuttonevent.addEventListner("submit", (e)=>{
     }else{
         console.log(userMail.value,userName.value,userPass.value) ;
     }
-}) ;
+});
