@@ -1,8 +1,8 @@
 .main-credentials{
-    border: 10px black solid ;
+    border: 1px grey solid ;
 }
 .main-info{
-    border: 10px red solid ;
+    border: 1px grey solid ;
 }
 .button-submit{
     float : right ;
@@ -10,11 +10,15 @@
     margin-top : 8px ;
 }
 .main{
-    color : #E6E6FA ;
+    background-color : #E6E6FA ;
 }
 
 .form-title-head{
     height: 10px ;
     border-radius: 20px 20px 0px 0px ;
     background-color : #8A2BE2 ;
+}
+
+.form-title-main{
+    border : 1px grey solid ;
 }
