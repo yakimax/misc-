@@ -20,6 +20,6 @@ submitbuttonevent.addEventListener("submit", (e)=>{
     if(Q1.value === 0 || Q4.value === 0 ||Q3.value === 0 ||Q2.value === 0 ){
         alert("error") ;
     }else{
-        console.log() ;
+        console.log(Q1.value,Q4.value,Q3.value,Q2.value) ;
     }
 });
