@@ -7,6 +7,10 @@ body{
     padding-top : 1px ;
     background-color: white ;
 }
+.button{
+    display: flex ;
+    
+}
 .form{
     border-radius: 15px 15px 0px 0px ;
 }

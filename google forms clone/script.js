@@ -12,13 +12,13 @@ submitbuttonevent.addEventListener("submit", (e)=>{
     let Q4 = document.querySelector("input[name=Question4]:checked") ;
 
     if(userMail.value === "" || userName.value === "" || userPass.value === ""){
-        alert("error") ;
+        alert("Please fill all form details") ;
     }else{
         console.log(userMail.value,userName.value,userPass.value) ;
     }
 
     if(Q1.value === 0 || Q4.value === 0 ||Q3.value === 0 ||Q2.value === 0 ){
-        alert("error") ;
+        alert("Please choose all mcqs") ;
     }else{
         console.log(Q1.value,Q4.value,Q3.value,Q2.value) ;
     }
