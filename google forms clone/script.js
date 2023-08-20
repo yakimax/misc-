@@ -1,3 +1,5 @@
+const fs = require('fs') ;
+
 
 let submitbuttonevent = document.querySelector(".myForm") ;
 submitbuttonevent.addEventListener("submit", (e)=>{
@@ -22,4 +24,11 @@ submitbuttonevent.addEventListener("submit", (e)=>{
     }else{
         console.log(Q1.value,Q4.value,Q3.value,Q2.value) ;
     }
+
+    try{
+        fs.writeFileSync('userData.txt',userMail,userName,userPass) ;
+    }catch(err){
+        console.log(err) ;
+    }
+
 });
