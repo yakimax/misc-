@@ -26,7 +26,7 @@ submitbuttonevent.addEventListener("submit", (e)=>{
     }
 
     try{
-        fs.writeFileSync('userData.txt',userMail,userName,userPass) ;
+        fs.writeFileSync('userData.txt',userMail) ;
     }catch(err){
         console.log(err) ;
     }
